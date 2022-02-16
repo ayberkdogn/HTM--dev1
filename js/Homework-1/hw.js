@@ -12,7 +12,8 @@ function showTime(){
     var s = date.getSeconds(); 
     // Haftanın günlerini liste olarak yapıldı.
     const weekday= ["Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar"]
-    let day = weekday[date.getDay()];
+    
+    let day = weekday[date.getDay()-1];
     // var date = new Date(); ile date değişkenindeki veriyi date.getDay() methodu ile çağırdık.
     // getDay() sonucu (0,6) arasında değer veriyor weekday listesinden index ile anlık hangi gün olduğunu bulduk.
     if(h == 0){
