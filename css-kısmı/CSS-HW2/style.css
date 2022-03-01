@@ -1,0 +1,73 @@
+.google_img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width:20%;
+}
+.blok2 {
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+
+   
+
+}
+#yazı1 {
+    width: 100%;
+}
+#inputsearch {
+    width: 25%;
+}
+body{
+    width: 1200px;
+    margin: auto;
+}
+h3{
+    margin-top: 0;
+}
+.header_logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.Search_form{
+    text-align: center;
+    background-color:aquamarine;
+    padding-bottom : 20px;
+}
+.Search_form_text{
+    display: block;
+}
+.search_form_input{
+    width: 250px;
+}
+.a_dec{
+    text-align: center;
+    display: block;
+}
+
+.box{
+    box-sizing: border-box;
+    margin-right: 4px;
+    height: 150px;
+    float: left;
+    width: 33%;
+    padding: 50px;
+}
+.clearfix{
+    content: "";
+    clear: both;
+    
+}
+.footer_info{
+    display: block;
+    text-align: center;
+    margin-top: 8em;
+    
+    
+    
+}
